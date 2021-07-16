@@ -1,3 +1,11 @@
+# ToDo List
+
+1. Import Dependecies -> npm install @tensorflow-models/speech-commands @tensorflow/tfjs (installing tensorflow speech command model & tensorflow.js library)
+2. Create Model and Action States - which hold our model, our actions and our labels
+3. Create Recognizer
+4. Listen for Actions
+5. Display Command to the screen
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
