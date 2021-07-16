@@ -56,8 +56,8 @@ const App = () => {
     <div className='App'>
       <div className='commands'>
         <h1>Commands you can try out:</h1>
-        {labels.map((label) => {
-          return <span>{label} &nbsp; | </span>;
+        {labels.map((label, key) => {
+          return <span key={key}>{label} &nbsp; | </span>;
         })}
       </div>
       <button onClick={recognizeCommands}>Command</button>
