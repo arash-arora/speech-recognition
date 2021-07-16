@@ -16,7 +16,7 @@ const App = () => {
   //Create Recognizer - will run this model once the app starts up using useEffect()
   const loadModel = async () => {
     const recognizer = await speech.create("BROWSER_FFT"); // loading our browser model
-    console.log("Model Loaded");
+    console.log("Model Loaded..");
     await recognizer.ensureModelLoaded(); // to check if it has actually been loaded
     console.log(recognizer.wordLabels()); // console logging the available labels (different commands)
 
